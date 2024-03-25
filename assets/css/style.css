@@ -277,21 +277,27 @@ footer a {
   }
   header {
     display: flex;
+    height: 100px;
   }
   header div img {
+    display: inline-block;
     width: 50%;
-    margin-left: -3%;
+    margin-left: -100px;
   }
   header div p {
+    display: inline-block;
     font-size: large;
-    display: inline-block;
   }
+
   header nav ul li a {
+    font-size: 1em;
     display: inline-block;
-    font-size: 2em;
   }
   h1 {
     font-size: 3.8em;
+  }
+  h1 + p {
+    font-size: 1.8em;
   }
   #badge {
     width: 7%;
@@ -335,15 +341,15 @@ footer a {
     display: inline-block;
     width: 33%;
   }
+  footer p {
+    font-size: 1.5em;
+  }
   footer address {
     max-width: 60%;
 
     font-size: 1.5em;
     align-items: center;
-  }
-  footer a {
-    max-width: 60%;
-    text-align: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
